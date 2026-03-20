@@ -41,22 +41,7 @@ The player and the CPU draw random cards — the higher card wins.
 
 
 
-func dealCards() {
-    let playerValue = Int.random(in: 2...14)
-    let cpuValue = Int.random(in: 2...14)
-    
-    playerCard = "card" + String(playerValue)
-    cpuCard = "card" + String(cpuValue)
-    
-    if playerValue > cpuValue {
-        playerScore += 1
-    } else if cpuValue > playerValue {
-        cpuScore += 1
-    } else {
-        playerScore += 1
-        cpuScore += 1
-    }
-}
+<pre> ```swift func dealCards() { let playerValue = Int.random(in: 2...14) let cpuValue = Int.random(in: 2...14) playerCard = "card" + String(playerValue) cpuCard = "card" + String(cpuValue) if playerValue > cpuValue { playerScore += 1 } else if cpuValue > playerValue { cpuScore += 1 } else { playerScore += 1 cpuScore += 1 } } ``` </pre>
 
 
 💡 FUTURES IMPROVMENTS
