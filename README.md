@@ -29,7 +29,7 @@ The player and the CPU draw random cards — the higher card wins.
 -The winner of the round is determined automatically
 -Scores are updated
 
-📸 Screenshots
+
 <img width="497" height="876" alt="App2" src="https://github.com/user-attachments/assets/078bc21a-d402-4d51-b389-cdf593a776e0" />
 
 <img width="527" height="877" alt="App1" src="https://github.com/user-attachments/assets/4f8b0874-541b-4f5f-83e2-8fdeb756413a" />
@@ -38,6 +38,8 @@ The player and the CPU draw random cards — the higher card wins.
 
 
 📌 Core Logic
+
+
 func dealCards() {
     let playerValue = Int.random(in: 2...14)
     let cpuValue = Int.random(in: 2...14)
@@ -54,6 +56,8 @@ func dealCards() {
         cpuScore += 1
     }
 }
+
+
 💡 FUTURES IMPROVMENTS
 
 Add card animations
