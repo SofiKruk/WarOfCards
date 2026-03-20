@@ -64,7 +64,7 @@ The player and the CPU draw random cards — the higher card wins.
   ``` </pre>
 
 
-💡 FUTURES IMPROVMENTS
+💡 FUTURE IMPROVMENTS
 
 Add card animations
 
@@ -73,6 +73,10 @@ Add sound effects
 Create a start screen
 
 Add difficulty levels
+
+🎯 ABOUT THE PROJECT
+
+This project was created to practice SwiftUI and basic game logic.
 
 👩‍💻 Author
 
