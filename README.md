@@ -40,6 +40,7 @@ The player and the CPU draw random cards — the higher card wins.
 📌 Core Logic
 
 
+
 func dealCards() {
     let playerValue = Int.random(in: 2...14)
     let cpuValue = Int.random(in: 2...14)
