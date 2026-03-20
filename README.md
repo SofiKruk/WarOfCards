@@ -1,9 +1,11 @@
 # WarOfCards
 
-🃏 Card Game (SwiftUI)
+🃏 CARD GAME (SwiftUI)
+
 
 A simple iOS card game built with SwiftUI.
 The player and the CPU draw random cards — the higher card wins.
+
 
 📱 FEATURES
 
