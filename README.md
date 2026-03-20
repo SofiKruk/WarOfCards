@@ -20,13 +20,17 @@ The player and the CPU draw random cards — the higher card wins.
 🛠️ TECHNOLOGIES
 
 -> Swift
+
 -> SwiftUI
 
 🚀 HOW IT WORKS
 
 -Press the button
+
 -The player and CPU receive random cards
+
 -The winner of the round is determined automatically
+
 -Scores are updated
 
 
